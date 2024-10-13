@@ -1,0 +1,48 @@
+/* css for registration form and errors*/
+.headline-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0px 50px 0px;
+}
+.form-registration { 
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	input {
+		width: 100%;
+		margin: 0px 0 10px;
+	}
+	.btn {
+		flex: 1 0 100%;
+	}
+}
+.my-errors {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	color: #333;
+	font-size: 1.2rem;
+	display: table;
+	li {
+		margin: 0 0 1rem;
+		&:before {
+			content: "! Error : ";
+			color: #f00;
+			font-weight: bold;
+		}
+	}
+}
+// body {
+// 	padding: 40px 10px;
+// 	background-color: #eee;
+// }
+// .listing-reg {
+// 	h1 {
+// 		text-align: center;
+// 		margin: 0 0 2rem;
+// 	}
+// }
+
